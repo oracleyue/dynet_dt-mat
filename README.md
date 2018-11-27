@@ -39,7 +39,7 @@ And the data/build directories:
 - `Results`: the default folder to save inference results;
 - `Backup` and `Test`: the folders for backup or temporary scripts, which shouldn't appear in released versions.
 
-If you didn't see the folders `Data` and `Results`, you make create them by `mkdir Data Results`.
+If you didn't see the folders `Data` and `Results`, you may create them by `mkdir Data Results`.
 
 ## Optional dependency
 
