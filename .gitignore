@@ -1,0 +1,25 @@
+# .gitignore for the released version
+
+# ignore test/backup files
+Backup/
+Test/
+
+# ignore data that is forbidden to be released
+Applications/
+
+# ignore build/output directories 
+Data/
+Results/
+
+# ignore Emacs/IDE meta data
+GPATH
+GRTAGS
+GTAGS
+
+# ignore temp files
+.DS_Store
+*#
+\#*
+.#*
+*~
+*.html
