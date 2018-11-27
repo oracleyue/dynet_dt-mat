@@ -51,6 +51,7 @@ You may go to `PROJECTROOT/demos/` to find demo examples to use this toolbox.
 
 **More simple demos** (to be completed)
 
+## References
 
-
-
+1. [Dynamic Network Reconstruction from Heterogeneous Datasets](https://arxiv.org/abs/1612.01963)
+2. [Dynamic Network Reconstruction in Systems Biology: Methods and Algorithms](http://publications.uni.lu/handle/10993/35580)
