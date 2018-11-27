@@ -2,6 +2,8 @@
 
 This is a MATLAB toolbox of *discrete-time methods* for dynamic network reconstruction. 
 
+(Note that this is not the original git repository for development. It is only used for released versions on github. The original one is maintained in a private gitLab repository.)
+
 The core idea is to model causal interactions between measurable variables by a
 dynamical network model, called *dynamical structure function* (DSF), and to
 infer network structures (with feedback loops allowed) by identifying DSF
