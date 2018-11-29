@@ -2,7 +2,20 @@
 
 This is a MATLAB toolbox of *discrete-time methods* for dynamic network reconstruction. 
 
-(Note that this is not the original git repository for development. It is only used for released versions on github. The original one is maintained in a private gitLab repository.)
+(Note that this is not the original git repository for development. It is only used for
+shared versions on github. The development is maintained in a private gitLab repository.)
+
+### To-do list
+
+This toolbox is under development, which current only includes the method in [1]. We would like include other methods in this toolbox. Here is a list to do:
+
+- rename `idnet` class to `idnetARX`;
+- use `idnet` as a common interface (function) to create instances of different classes
+  for parametric models, e.g., `netobj = idnet(p,m, 'arx')` or `netobj = idnet(p,m, 'gp')`;
+- add class `idnetGP`, which use Gaussian Processes to "parametrize" LTI models;
+- add class `idnetSS`, which use state-space models: copy functions from another project and uniform its interface;
+
+## Introduction
 
 The core idea is to model causal interactions between measurable variables by a
 dynamical network model, called *dynamical structure function* (DSF), and to
@@ -55,5 +68,6 @@ You may go to `PROJECTROOT/demos/` to find demo examples to use this toolbox.
 
 ## References
 
-1. [Dynamic Network Reconstruction from Heterogeneous Datasets](https://arxiv.org/abs/1612.01963)
-2. [Dynamic Network Reconstruction in Systems Biology: Methods and Algorithms](http://publications.uni.lu/handle/10993/35580)
+[1] [Dynamic Network Reconstruction from Heterogeneous Datasets](https://arxiv.org/abs/1612.01963)
+
+[2] [Dynamic Network Reconstruction in Systems Biology: Methods and Algorithms](http://publications.uni.lu/handle/10993/35580)
